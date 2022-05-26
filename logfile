@@ -1,0 +1,96 @@
+2022-05-26 12:15:23.141 BST [66927] LOG:  starting PostgreSQL 13.6 on x86_64-apple-darwin21.3.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.30), 64-bit
+2022-05-26 12:15:23.144 BST [66927] LOG:  listening on IPv6 address "::1", port 5432
+2022-05-26 12:15:23.144 BST [66927] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-05-26 12:15:23.144 BST [66927] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-05-26 12:15:23.147 BST [66928] LOG:  database system was shut down at 2022-05-26 12:15:14 BST
+2022-05-26 12:15:23.150 BST [66927] LOG:  database system is ready to accept connections
+2022-05-26 12:15:41.484 BST [66981] FATAL:  lock file "postmaster.pid" already exists
+2022-05-26 12:15:41.484 BST [66981] HINT:  Is another postmaster (PID 66927) running in data directory "/usr/local/var/postgres"?
+2022-05-26 12:16:34.311 BST [67203] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 12:16:34.311 BST [67203] DETAIL:  Key (id)=(8) is still referenced from table "bookmarks".
+2022-05-26 12:16:34.311 BST [67203] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 12:17:50.317 BST [67415] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 12:17:50.317 BST [67415] DETAIL:  Key (id)=(16) is still referenced from table "bookmarks".
+2022-05-26 12:17:50.317 BST [67415] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 12:18:33.306 BST [67721] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 12:18:33.306 BST [67721] DETAIL:  Key (id)=(24) is still referenced from table "bookmarks".
+2022-05-26 12:18:33.306 BST [67721] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 12:20:45.253 BST [67922] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 12:20:45.253 BST [67922] DETAIL:  Key (id)=(32) is still referenced from table "bookmarks".
+2022-05-26 12:20:45.253 BST [67922] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 12:21:07.115 BST [68071] ERROR:  update or delete on table "lists" violates foreign key constraint "fk_rails_29c05dc16c" on table "bookmarks"
+2022-05-26 12:21:07.115 BST [68071] DETAIL:  Key (id)=(49) is still referenced from table "bookmarks".
+2022-05-26 12:21:07.115 BST [68071] STATEMENT:  DELETE FROM "lists" WHERE "lists"."id" = $1
+2022-05-26 12:21:07.140 BST [68071] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 12:21:07.140 BST [68071] DETAIL:  Key (id)=(40) is still referenced from table "bookmarks".
+2022-05-26 12:21:07.140 BST [68071] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 12:22:26.020 BST [68371] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 12:22:26.020 BST [68371] DETAIL:  Key (id)=(48) is still referenced from table "bookmarks".
+2022-05-26 12:22:26.020 BST [68371] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 12:23:44.795 BST [68502] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 12:23:44.795 BST [68502] DETAIL:  Key (id)=(57) is still referenced from table "bookmarks".
+2022-05-26 12:23:44.795 BST [68502] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 12:31:26.473 BST [69271] FATAL:  database "rails_watch_list_test" does not exist
+2022-05-26 12:37:11.125 BST [69871] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 12:37:11.125 BST [69871] DETAIL:  Key (id)=(9) is still referenced from table "bookmarks".
+2022-05-26 12:37:11.125 BST [69871] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 12:38:21.863 BST [70082] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 12:38:21.863 BST [70082] DETAIL:  Key (id)=(18) is still referenced from table "bookmarks".
+2022-05-26 12:38:21.863 BST [70082] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 15:05:56.227 BST [80854] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 15:05:56.227 BST [80854] DETAIL:  Key (id)=(34) is still referenced from table "bookmarks".
+2022-05-26 15:05:56.227 BST [80854] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 15:07:37.811 BST [81208] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 15:07:37.811 BST [81208] DETAIL:  Key (id)=(50) is still referenced from table "bookmarks".
+2022-05-26 15:07:37.811 BST [81208] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 15:11:01.245 BST [81424] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 15:11:01.245 BST [81424] DETAIL:  Key (id)=(66) is still referenced from table "bookmarks".
+2022-05-26 15:11:01.245 BST [81424] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 15:30:20.102 BST [82482] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 15:30:20.102 BST [82482] DETAIL:  Key (id)=(82) is still referenced from table "bookmarks".
+2022-05-26 15:30:20.102 BST [82482] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 15:37:57.097 BST [84646] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 15:37:57.097 BST [84646] DETAIL:  Key (id)=(98) is still referenced from table "bookmarks".
+2022-05-26 15:37:57.097 BST [84646] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 15:53:20.959 BST [85837] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 15:53:20.959 BST [85837] DETAIL:  Key (id)=(114) is still referenced from table "bookmarks".
+2022-05-26 15:53:20.959 BST [85837] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 15:57:24.694 BST [85984] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 15:57:24.694 BST [85984] DETAIL:  Key (id)=(130) is still referenced from table "bookmarks".
+2022-05-26 15:57:24.694 BST [85984] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 16:04:44.097 BST [86895] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 16:04:44.097 BST [86895] DETAIL:  Key (id)=(146) is still referenced from table "bookmarks".
+2022-05-26 16:04:44.097 BST [86895] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 16:08:38.724 BST [87163] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 16:08:38.724 BST [87163] DETAIL:  Key (id)=(162) is still referenced from table "bookmarks".
+2022-05-26 16:08:38.724 BST [87163] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 16:08:52.228 BST [87254] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 16:08:52.228 BST [87254] DETAIL:  Key (id)=(178) is still referenced from table "bookmarks".
+2022-05-26 16:08:52.228 BST [87254] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 16:09:52.172 BST [87466] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 16:09:52.172 BST [87466] DETAIL:  Key (id)=(194) is still referenced from table "bookmarks".
+2022-05-26 16:09:52.172 BST [87466] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 16:10:37.925 BST [87603] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 16:10:37.925 BST [87603] DETAIL:  Key (id)=(210) is still referenced from table "bookmarks".
+2022-05-26 16:10:37.925 BST [87603] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 16:19:32.433 BST [88485] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 16:19:32.433 BST [88485] DETAIL:  Key (id)=(226) is still referenced from table "bookmarks".
+2022-05-26 16:19:32.433 BST [88485] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 16:20:09.242 BST [88687] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 16:20:09.242 BST [88687] DETAIL:  Key (id)=(242) is still referenced from table "bookmarks".
+2022-05-26 16:20:09.242 BST [88687] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 16:21:51.222 BST [89034] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 16:21:51.222 BST [89034] DETAIL:  Key (id)=(258) is still referenced from table "bookmarks".
+2022-05-26 16:21:51.222 BST [89034] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 16:24:02.410 BST [89204] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 16:24:02.410 BST [89204] DETAIL:  Key (id)=(274) is still referenced from table "bookmarks".
+2022-05-26 16:24:02.410 BST [89204] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 16:25:27.535 BST [89543] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 16:25:27.535 BST [89543] DETAIL:  Key (id)=(290) is still referenced from table "bookmarks".
+2022-05-26 16:25:27.535 BST [89543] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 16:31:05.550 BST [89858] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 16:31:05.550 BST [89858] DETAIL:  Key (id)=(306) is still referenced from table "bookmarks".
+2022-05-26 16:31:05.550 BST [89858] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2022-05-26 16:31:31.717 BST [90007] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2022-05-26 16:31:31.717 BST [90007] DETAIL:  Key (id)=(322) is still referenced from table "bookmarks".
+2022-05-26 16:31:31.717 BST [90007] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
