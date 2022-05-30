@@ -1,11 +1,13 @@
+<div>
+  <h2><%= @list.name %></h2>
+</div>
+<div class="cards">
+  <% @list.bookmarks.each do |bookmark|%>
+    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+    <%= bookmark.movie.title %>
+    <%= link_to "Delete", bookmark_path(bookmark.id), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}, class: "btn btn-danger" %>
+    </div>
+  <% end %>
+</div>
 
-<h2><%= @list.name %></h2>
-
-<ul>
-<% @list.bookmarks.each do |bookmark|%>
-  <li><%= bookmark.movie.title %></li>
-  <%= link_to "Delete", bookmark_path(bookmark.id), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
-<% end %>
-</ul>
-
-<%= link_to "Add a movie", new_list_bookmark_path(@list) %>
+<%= link_to "Add a movie", new_list_bookmark_path(@list), class: "btn btn-primary" %>
